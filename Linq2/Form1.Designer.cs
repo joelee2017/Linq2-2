@@ -65,6 +65,7 @@
             this.btnSearch.TabIndex = 2;
             this.btnSearch.Text = "搜尋";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnProductList
             // 
@@ -75,6 +76,7 @@
             this.btnProductList.TabIndex = 3;
             this.btnProductList.Text = "產品資料";
             this.btnProductList.UseVisualStyleBackColor = true;
+            this.btnProductList.Click += new System.EventHandler(this.btnProductList_Click);
             // 
             // btnSortAsc
             // 
@@ -85,6 +87,7 @@
             this.btnSortAsc.TabIndex = 4;
             this.btnSortAsc.Text = "遞增排序";
             this.btnSortAsc.UseVisualStyleBackColor = true;
+            this.btnSortAsc.Click += new System.EventHandler(this.btnSortAsc_Click);
             // 
             // btnSortDesc
             // 
@@ -95,6 +98,7 @@
             this.btnSortDesc.TabIndex = 5;
             this.btnSortDesc.Text = "遞減排序";
             this.btnSortDesc.UseVisualStyleBackColor = true;
+            this.btnSortDesc.Click += new System.EventHandler(this.btnSortDesc_Click);
             // 
             // dataGridView1
             // 
@@ -119,6 +123,7 @@
             this.Controls.Add(this.txtSearch);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
